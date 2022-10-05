@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="jobxoswiha">
+            <path d="M1440 0v6544H0V0h1440z"/>
+        </clipPath>
+        <clipPath id="3uydwl5seb">
+            <path d="M1.768 0c.679 0 1.29.192 1.29 1.003 0 .746-.478 1.048-1.152 1.048H0V0z"/>
+        </clipPath>
+        <clipPath id="1c6tcxobbc">
+            <path d="M1.415 0c.857 0 1.286.513 1.362 1.36H0C.053.522.598 0 1.415 0z"/>
+        </clipPath>
+        <clipPath id="xzfbak1lcd">
+            <path d="M2.053 0c.83.004 1.353.357 1.354 1.259 0 .884-.625 1.163-1.394 1.163H0V0z"/>
+        </clipPath>
+        <clipPath id="9zdn2a7ose">
+            <path d="M16.458 0C18.417 0 20 1.624 20 3.632v12.736C20 18.376 18.417 20 16.458 20H3.542C1.583 20 0 18.376 0 16.368V3.632C0 1.624 1.583 0 3.542 0zm-2.511 7.67c-1.893 0-3.174 1.455-3.174 3.368 0 1.983 1.219 3.343 3.174 3.343 1.481 0 2.441-.682 2.905-2.143h-1.504c-.165.546-.83.83-1.348.83-1 0-1.523-.6-1.523-1.617h4.474c.004-.105.013-.22.013-.33 0-1.882-1.076-3.452-3.017-3.452zM7.076 5.567h-4.04v8.791h4.156c1.558-.01 3.018-.774 3.017-2.56 0-1.103-.509-2.056-1.562-2.363.768-.375 1.17-.81 1.17-1.694 0-1.749-1.272-2.174-2.741-2.174zm8.526.316H12.13v.865h3.473v-.865z"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#jobxoswiha)" transform="translate(-1120 -6360)">
+        <g clip-path="url(#3uydwl5seb)" transform="translate(1126.924 6368.923)">
+            <path fill="#7E7E7E" d="M0 0h3.058v2.051H0V0z"/>
+        </g>
+        <g clip-path="url(#1c6tcxobbc)" transform="translate(1134.473 6370.988)">
+            <path fill="#7E7E7E" d="M0 0h2.777v1.36H0V0z"/>
+        </g>
+        <g clip-path="url(#xzfbak1lcd)" transform="translate(1126.92 6372.435)">
+            <path fill="#7E7E7E" d="M0 0h3.407v2.422H0V0z"/>
+        </g>
+        <g clip-path="url(#9zdn2a7ose)" transform="translate(1122 6362)">
+            <path fill="#7E7E7E" d="M0 0h20v20H0V0z"/>
+        </g>
+    </g>
+</svg>

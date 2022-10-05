@@ -1,0 +1,951 @@
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width: 1440px) {
+    /* .mobile__ks {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        background-color: #e2e4f0;
+        align-items: center;
+        max-width: 1376px;
+        margin: 0 auto;
+        min-width: 1200px;
+        margin-top: 48px;
+    } */
+
+    .domingo__web {
+        background-color: #C1D7DD;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .expt__design .expt__design__ks {
+        max-width: 1199px;
+        min-width: 992px;
+    }
+
+    .mobile__email .mobile__app__management,
+    .non__home .mobile__home {
+        padding: 0 16px;
+    }
+
+    .mobile__ks {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        background-color: #e2e4f0;
+        align-items: center;
+        max-width: 1199px;
+        margin: 0 auto;
+        min-width: 992px;
+        margin-top: 48px;
+    }
+
+    .work__user .slider__ks {
+        transform: translateX(-2%);
+    }
+
+    .currantly__role p {
+        padding-bottom: 32px;
+    }
+
+    .experience__company .company__list {
+        padding: 0;
+    }
+
+    .domingo__web {
+        background-color: #C1D7DD;
+    }
+
+    .information__ks .product__uiux {
+        column-gap: 24px;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .container {
+        padding: 0 16px;
+        max-width: 720px;
+    }
+
+    .digital__interface {
+        padding-top: 64px;
+    }
+
+    .working__ks {
+        padding: 64px 0;
+    }
+
+    .design__systems {
+        float: none;
+    }
+
+    .systems__picture img {
+        width: 100%;
+    }
+
+    .working__ks__text {
+        padding-top: 64px;
+    }
+
+    .dot__grey h2 br {
+        display: none;
+    }
+
+    .header__list.header__list__block::after {
+        display: none;
+    }
+
+    .beautiful__friendship {
+        background-position: right bottom, bottom right;
+        background-size: 100%, 50%, 100%;
+    }
+
+    .header__icon:first-child {
+        margin-left: 0px;
+    }
+
+    .header__manu {
+        margin: 0;
+    }
+
+    .work__user .slider__ks {
+        transform: translateX(-2%);
+        padding: 64px 0;
+        margin-left: 60px;
+    }
+
+    .experience__for__work {
+        padding: 64px 0;
+    }
+
+    .expt__design .expt__design__ks {
+        max-width: 720px;
+        min-width: 720px;
+    }
+
+    .mobile__email .mobile__app__management {
+        padding: 64px 24px;
+    }
+
+    .currantly__role {
+        padding-bottom: 32px;
+    }
+
+    .experience__company .company__list {
+        padding: 0;
+    }
+
+    .mobile__ks,
+    .non__home {
+        grid-template-columns: repeat(1, auto);
+        max-width: 768px;
+        min-width: 768px;
+    }
+
+    .non__home .mobile__home {
+        padding: 48px 16px;
+        order: 2;
+    }
+
+    .friendship__ks,
+    .frequently_ks {
+        padding: 64px 0;
+    }
+
+    /*ui & ux*/
+    .service__ks {
+        padding: 64px 0;
+    }
+
+    .application__web__mobile {
+        padding-bottom: 64px;
+    }
+
+    .web__application {
+        margin-right: 0;
+    }
+
+    .mobile__application {
+        margin-left: 0;
+    }
+
+    .process__ks {
+        padding: 64px 0 32px;
+    }
+
+    .project__setup {
+        padding: 48px 0;
+    }
+
+    .asked__questions {
+        padding-bottom: 64px;
+    }
+
+    /*project*/
+    .project__kl {
+        padding: 64px 0 96px;
+    }
+
+    .design__ks .design__tabs__ks:first-child {
+        display: none;
+    }
+
+    .design .web__ex__ds {
+        padding: 32px;
+        padding-bottom: 0;
+    }
+
+    .android__apps .mobile__content {
+        padding: 24px 0 20px;
+    }
+
+    .design__ks {
+        top: -70px;
+    }
+
+    /*about*/
+    .work__possion__users {
+        padding: 64px 0;
+    }
+
+    .header__ks .about__design {
+        padding-bottom: 64px;
+    }
+
+    .mobile__ks .mobile__picture,
+    .non__home .mobile__picture {
+        margin: 0 auto;
+    }
+
+    .header__sm__adm {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .header__list .header__manu .nav-link {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .information__ks .product__uiux {
+        column-gap: 48px;
+    }
+
+    .design__view {
+        margin-bottom: 64px !important;
+        padding: 0 !important;
+    }
+
+    .design__view .project__picture {
+        text-align: center;
+        float: none;
+    }
+
+    .design__view .project__2__picture {
+        text-align: center;
+    }
+
+    .introduction__ks {
+        padding: 0;
+    }
+
+    /*contact page*/
+    .header__ks .container .contact__for {
+        padding: 64px 0;
+    }
+
+    .ticket {
+        display: none;
+    }
+
+    .footer__ks .footer,
+    .project__mind {
+        padding: 64px 0;
+    }
+
+    .contact__block {
+        padding: 0;
+    }
+
+    .contact__bg .provider__ks {
+        grid-template-columns: auto auto auto;
+        row-gap: 24px;
+    }
+
+    .provider__ks label {
+        min-width: 160px;
+    }
+
+    .contact__bg p {
+        font-size: 14px;
+    }
+
+    .contact__for .social__contact {
+        grid-template-columns: auto auto;
+        column-gap: 32px;
+    }
+
+    .footer__ks .footer .footer__logo {
+        padding-bottom: 48px;
+    }
+
+    .footer__logo .footer__text {
+        padding-top: 48px;
+    }
+
+    .happy__client .slick-prev {
+        left: -50px;
+    }
+
+    .happy__client .slick-next {
+        right: -50px;
+    }
+
+    .vi__editor,
+    .guidelines {
+        width: 100%;
+        margin: 0;
+    }
+
+    .project__view__detail .Similar__design {
+        float: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .Similar__design .project.case__project {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+    .header__sm__adm {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .header__list .header__manu .nav-link {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .header__manu,
+    .header__icon {
+        margin: 0 !important;
+    }
+
+    .provider__ks {
+        grid-template-columns: auto auto auto;
+        row-gap: 24px;
+        column-gap: 24px;
+        justify-content: flex-start;
+    }
+
+    .form-control,
+    .form-select {
+        width: 100%;
+    }
+
+    .choose__ks {
+        width: 100%;
+    }
+
+    .work__possion__users {
+        padding: 60px 0 60px;
+    }
+
+    .footer__logo .footer__text {
+        padding-top: 48px;
+    }
+
+    .header__list.header__list__block::after {
+        display: none;
+    }
+
+    .mockup__v0 img,
+    .expt__design__ks__sm img {
+        width: 100%;
+    }
+
+    .systems__picture {
+        float: none;
+        padding: 0;
+    }
+
+    .guidelines {
+        width: 100%;
+    }
+
+    .pletform .android__app,
+    .pletform .android_text {
+        padding-bottom: 40px;
+    }
+
+    .vi__editor .vi__background {
+        display: none;
+    }
+
+    .pletform .android__link {
+        padding: 0;
+    }
+
+    .project__view__detail {
+        padding: 48px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    p {
+        font-size: 16px;
+    }
+
+    .mobile__ks .container {
+        padding: 0 16px;
+    }
+
+    .brand {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .small__brand {
+        font-size: 48px;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #282828;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.4px;
+        line-height: 32px;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.2px;
+        line-height: 24px;
+    }
+
+    .tabs {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .header__ks .navbar {
+        padding: 24px 0;
+    }
+
+    .header__list.header__list__block::after {
+        display: none;
+    }
+
+    .experience__ks {
+        -webkit-text-stroke: 1px #232323;
+        color: rgba(255, 255, 255, 0);
+    }
+
+    .project__setup {
+        padding: 24px 0;
+    }
+
+    .project__setup .setup__text {
+        padding: 0;
+        margin-left: 16px;
+    }
+
+    .setup__number p {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.8px;
+    }
+
+    .digital__interface {
+        padding: 24px 0 48px;
+        background-image: none;
+    }
+
+    .working__ks {
+        padding: 0 0 48px;
+    }
+
+    .systems__provider__picture {
+        display: none;
+    }
+
+    .working__ks .working__ks__text {
+        padding-right: 0;
+        padding-top: 48px;
+    }
+
+    .working__based.brand {
+        font-size: 40px;
+        letter-spacing: -0.8px;
+        line-height: 36px;
+    }
+
+    .working__ks__text .working__based.brand {
+        padding: 32px 18px 36px 0;
+    }
+
+    .working__ks__button {
+        flex-direction: column;
+        padding-top: 32px;
+        gap: 16px;
+    }
+
+    .btn.project,
+    .btn.resume {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn.project img,
+    .btn.resume img {
+        float: right;
+    }
+
+    .systems__picture {
+        float: none;
+        padding: 0;
+    }
+
+    .project__ks {
+        padding-top: 64px;
+    }
+
+    .expt__design {
+        padding: 48px 0;
+    }
+
+    .expt__design__ks__sm img {
+        width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .project__ks .brand {
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -0.12px;
+        line-height: 40px;
+    }
+
+    .project__ks h6 {
+        font-size: 16px;
+        letter-spacing: -0.16px;
+        line-height: 24px;
+    }
+
+    .mobile__ks,
+    .non__home {
+        grid-template-columns: repeat(1, auto);
+        max-width: 543px;
+        min-width: 328px;
+    }
+
+    .domingo__web {
+        margin-bottom: 48px;
+    }
+
+    .mobile__email {
+        background-color: #e2e4f0;
+    }
+
+    .mobile__picture img {
+        width: 328px;
+    }
+
+    .mobile__email .mobile__app__management h4,
+    .mobile__home .mobile__app__management h4 {
+        font-size: 24px;
+        letter-spacing: -0.4px;
+        line-height: 32px;
+    }
+
+    .mobile__email .mobile__app__management h4,
+    .mobile__home .mobile__app__management h4 {
+        padding: 16px 0;
+    }
+
+    .mobile__email .mobile__app__management .mobile__content,
+    .mobile__home .mobile__app__management .mobile__content {
+        padding-bottom: 24px;
+    }
+
+    .mobile__email .mobile__app__management {
+        padding: 48px 16px;
+    }
+
+    .non__home .mobile__home {
+        padding: 48px 16px;
+    }
+
+    .mobile__app__management h4 br,
+    .dot__grey h2 br {
+        display: none;
+    }
+
+    .mobile__ks .mobile__picture,
+    .non__home .mobile__picture {
+        margin: 0 auto;
+    }
+
+    .client__review {
+        justify-content: center;
+        padding: 48px 0 138px;
+        margin-top: 0;
+    }
+
+    .client__review .happy__ks {
+        padding-bottom: 24px;
+    }
+
+    .happy__client {
+        padding: 0;
+    }
+
+    .happy__client {
+        background-color: transparent;
+    }
+
+    .mindriser__employee {
+        justify-content: center;
+    }
+
+    .client__box h4 {
+        font-weight: 700;
+        line-height: 28px;
+        color: #282828;
+        font-size: 18px;
+        letter-spacing: -0.15px;
+        text-align: center;
+        padding-top: 24px;
+    }
+
+    .happy__client .slick-next {
+        right: 30%;
+        top: 390px;
+    }
+
+    .happy__client .slick-prev {
+        left: 30%;
+        top: 390px;
+    }
+
+    .mobile__email.Domingo {
+        background-color: #C1D7DD !important;
+        margin-bottom: 0;
+    }
+
+    .friendship__ks {
+        padding: 48px 0;
+    }
+
+
+    .title__manu {
+        width: auto;
+        height: 48px;
+        line-height: 44px;
+        transition: 2s;
+    }
+
+    .header__ks .navbar .navbar-collapse .header__list__bl {
+        padding-top: 24px;
+    }
+
+    .btn.touch {
+        margin-top: 24px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dot__grey {
+        padding: 0;
+    }
+
+    .dot__grey h2 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.4px;
+        line-height: 40px;
+        padding: 24px 0 48px;
+    }
+
+    .footer__logo {
+        padding-top: 64px;
+    }
+
+    .contact__for .social__contact {
+        grid-template-columns: auto;
+        grid-row-gap: 32px;
+        padding-top: 48px;
+    }
+
+    .beautiful__friendship {
+        background-image: url(../images/Dot_dark.svg), url(../images/cta-place-holder.svg);
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: revert;
+        background-size: cover;
+    }
+
+    .footer__logo .footer__text {
+        padding: 0;
+    }
+
+    .footer__ks .container .footer,
+    .footer__ks .footer .footer__logo,
+    .footer__manu,
+    .footer__icon {
+        padding: 24px 0;
+    }
+
+    /*ui & ux*/
+    .service__ks {
+        padding: 24px 0 48px;
+    }
+
+    .container-sm {
+        padding: 0;
+    }
+
+    .process__ks {
+        padding: 48px 0;
+    }
+
+    .application__web__mobile {
+        padding-bottom: 0;
+    }
+
+    .mobile__application {
+        margin-left: 0;
+        margin-top: 48px;
+        padding: 24px 16px 0;
+    }
+
+    .application__text {
+        padding: 24px 16px 48px;
+    }
+
+    .mobile__application .mobile__application__picture {
+        padding-top: 48px;
+        text-align: center;
+    }
+
+    .design__view {
+        margin-bottom: 48px !important;
+        padding: 0 !important;
+    }
+
+    .project__picture {
+        padding: 0;
+        float: none;
+    }
+
+    .project__picture img,
+    .project__2__picture img,
+    .web__application__picture img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .accordian {
+        width: 100%;
+    }
+
+    .accordian__item__header {
+        padding: 0 0 0 44px;
+    }
+
+    .frequently_ks {
+        padding: 48px 0;
+    }
+
+    .asked__questions {
+        padding-bottom: 48px;
+    }
+
+    /*project*/
+    .project__kl {
+        padding: 24px 0 96px;
+    }
+
+    .project__view .design__ks {
+        flex-direction: column;
+        row-gap: 8px;
+        top: -65px;
+    }
+
+    .design__ks .tabs__group {
+        margin-left: 16px;
+    }
+
+    .design__ks .design__tabs__ks {
+        align-items: baseline;
+    }
+
+    .design {
+        padding: 48px 0 16px;
+    }
+
+    .s1__page,
+    .s2__page {
+        margin: 0;
+    }
+
+    .design .web__ex__ds {
+        padding: 48px 16px;
+        margin-bottom: 32px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .exploration__ks .mockup__m2 {
+        padding-top: 48px;
+        row-gap: 48px;
+    }
+
+    .playground .exploration__ks {
+        padding: 48px 0;
+    }
+
+    .play__exploation p br,
+    .play__exploation h6 br {
+        display: none;
+    }
+
+    .tabs__btn {
+        padding: 6px 14px;
+    }
+
+    .design .android__apps {
+        text-align: left;
+    }
+
+    /*about*/
+    .header__ks .about__design {
+        padding-bottom: 48px;
+    }
+
+    .work__possion__users {
+        padding: 24px 0 48px;
+    }
+
+    .information__ks .product__uiux {
+        display: block;
+    }
+
+    .slider__ks {
+        padding: 48px 0;
+        margin: 0;
+        transform: translateX(0%);
+    }
+
+    .experience__for__work {
+        padding: 48px 0;
+    }
+
+    .experience__company .company__list {
+        padding: 0;
+    }
+
+    .currantly__role {
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+
+    .about__experience {
+        padding-bottom: 48px;
+    }
+
+    .slider__ks__picture {
+        margin: 0 4px;
+    }
+
+    /*contact*/
+    .header__ks .container .contact__for {
+        padding: 24px 0 48px;
+    }
+
+    .social__bg .social__info {
+        margin-left: 16px;
+    }
+
+    .project__mind {
+        padding: 48px 0;
+    }
+
+    .contact__bg .form-control,
+    .contact__bg .form-select {
+        width: 100%;
+    }
+
+    .choose__ks input[type="file"] {
+        width: 100%;
+        border-bottom: 2px solid #d9d9db;
+    }
+
+    .choose__ks {
+        width: 100%;
+    }
+
+    .contact__bg .provider__ks {
+        grid-template-columns: auto auto;
+        row-gap: 24px;
+        column-gap: 24px;
+        justify-content: start;
+    }
+
+    .contact__bg .provider__ks .provider__ks__list:nth-child(3) {
+        grid-column: 1 /3;
+        width: 320px;
+        display: grid;
+    }
+
+    .contact__bg .provider__ks .provider__ks__list {
+        padding: 0;
+    }
+
+    .contact__bg .provider__ks__list label {
+        max-width: 320px;
+        min-width: 148px;
+    }
+
+    .contact__bg {
+        padding-bottom: 48px;
+    }
+
+    .contact__bg .btn.Send__ks {
+        border-radius: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .guidelines .pletform {
+        padding: 48px 0;
+    }
+
+    .Similar__design .project.case__project {
+        width: 100%;
+    }
+}
