@@ -57,7 +57,7 @@
                             <a class="nav-link" href="project">Projects</a>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link" href="aboutme">About me</a>
+                            <a class="nav-link" href="about">About me</a>
                         </li>
                         <li class="nav-item header__manu">
                             <a class="nav-link" href="contact">Let's chat?</a>
