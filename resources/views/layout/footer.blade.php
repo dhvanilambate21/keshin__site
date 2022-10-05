@@ -23,7 +23,7 @@
                     <ul class="footer__manu__list">
                         <li><a href="ui_ux">UI & UX</a></li>
                         <li><a href="project">Projects</a></li>
-                        <li><a href="aboutme">About me</a></li>
+                        <li><a href="about">About me</a></li>
                         <li><a href="contact">Let’s chat?</a></li>
                     </ul>
                 </div>
