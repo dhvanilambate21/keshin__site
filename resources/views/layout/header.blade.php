@@ -48,19 +48,19 @@
                             <h5 class="title__manu d-block d-lg-none">Menu</h5>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            <a class="nav-link active" aria-current="page" href="{{ Route('home') }}">Home</a>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link" href="ui_ux">Capabilities</a>
+                            <a class="nav-link" href="{{ Route('services') }}">Capabilities</a>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link" href="project">Projects</a>
+                            <a class="nav-link" href="{{ Route('projects') }}">Projects</a>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link" href="about">About me</a>
+                            <a class="nav-link" href="{{ Route('about') }}">About me</a>
                         </li>
                         <li class="nav-item header__manu">
-                            <a class="nav-link" href="contact">Let's chat?</a>
+                            <a class="nav-link" href="{{ Route('contact') }}">Let's chat?</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav header__list header__sm__adm">
