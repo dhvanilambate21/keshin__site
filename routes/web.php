@@ -24,11 +24,11 @@ use App\Http\Controllers\StoreController;
 |
 */
 
-Route::get('/',[HomeController::class,'index']);
-Route::get('/home',[HomeController::class,'index']);
-Route::get('/about',[AboutController::class,'index']);
-Route::get('/contact',[ContactController::class,'index']);
-Route::get('/project',[ProjectController::class,'index']);
-Route::get('/projectdetails',[ProjectdetailsController::class,'index']);
-Route::get('/ui_ux',[UiuxController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('home');
+Route::get('/home',[HomeController::class,'index'])->name('home');
+Route::get('/about',[AboutController::class,'index'])->name('about');
+Route::get('/contact',[ContactController::class,'index'])->name('contact');
+Route::get('/projects',[ProjectController::class,'index'])->name('projects');
+Route::get('/projectdetails',[ProjectdetailsController::class,'index'])->name('projectdetails');
+Route::get('/services',[servicesController::class,'index'])->name('services');
 Route::post('store',[StoreController::class,'store']);
