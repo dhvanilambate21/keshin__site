@@ -5,10 +5,10 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class UiuxController extends Controller
+class servicesController extends Controller
 {
     function index(Request $req)
     {
-        return view('frontend.ui_ux');
+        return view('frontend.services');
     }
 }
